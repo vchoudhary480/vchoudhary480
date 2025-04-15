@@ -2,7 +2,7 @@
 
 ## 📘 About Me: 
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="250" align="right"/>
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" align="right"/>
 
 
 🎓 I am a Computer Science Student at UC Davis.  
