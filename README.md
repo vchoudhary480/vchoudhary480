@@ -4,7 +4,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-2563eb?style=flat-square)](https://vchoudhary480.github.io/vishwa-portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishwa-prakash-choudhary-541036291/)
-[![Email](https://img.shields.io/badge/Reach%20me%20%40%20choudharyvishwaprakash480%40gmail.com-ea4335?style=flat-square&logo=maildotru&logoColor=white)](mailto:choudharyvishwaprakash480@gmail.com)
+![Email](https://img.shields.io/badge/Reach%20me%20%40%20choudharyvishwaprakash480%40gmail.com-ea4335?style=flat-square&logo=maildotru&logoColor=white)
 ---
 
 ## 📌 About Me
