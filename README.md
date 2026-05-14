@@ -11,7 +11,7 @@
 
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" align="right"/>
 
-I'm a Computer Science student at UC Davis focused on cybersecurity — threat detection, network traffic analysis, and security architecture. I'm currently pursuing **CompTIA Security+** and **Network+**, and building hands-on projects that show I can actually do the work, not just talk about it.
+I'm a Computer Science student at UC Davis focused on cybersecurity, threat detection, network traffic analysis, and security architecture. I'm currently pursuing **CompTIA Security+** and **Network+**, and building hands-on projects that show I can actually do the work, not just talk about it.
 
 - 🎯 Targeting entry-level **SOC Analyst** and security engineering roles
 - 🔍 Currently focused on threat detection, SIEM tooling, and vulnerability assessment
