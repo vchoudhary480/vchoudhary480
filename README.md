@@ -24,23 +24,17 @@ I'm a Computer Science student at UC Davis focused on cybersecurity, threat dete
 
 ## 🛠️ Tech & Tools
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599c?style=flat-square&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-00599c?style=flat-square&logo=c&logoColor=white)
+**Languages & Scripting**
+Python · Bash · SQL (basics)
 
 **Security & Networking**
-![Wireshark](https://img.shields.io/badge/Wireshark-1679a7?style=flat-square&logo=wireshark&logoColor=white)
-![Scapy](https://img.shields.io/badge/Scapy-005571?style=flat-square)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596be?style=flat-square)
-![Nmap](https://img.shields.io/badge/Nmap-4d4d4d?style=flat-square)
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP-4d4d4d?style=flat-square)
+Wireshark · Scapy · Splunk · Metasploit · Nmap · Kali Linux · TCP/IP
 
 **Cloud & Platforms**
-![AWS](https://img.shields.io/badge/AWS-232f3e?style=flat-square&logo=amazonaws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-fcc624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-f05032?style=flat-square&logo=git&logoColor=white)
+AWS (IAM, S3, CloudTrail, GuardDuty) · Linux · VirtualBox / VMware
+
+**Concepts**
+Log Analysis · Incident Response · MITRE ATT&CK · NIST Frameworks · Cryptography Fundamentals
 
 ---
 
