@@ -33,11 +33,13 @@ I'm a Computer Science student at UC Davis focused on cybersecurity, threat dete
 **Security & Networking**
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679a7?style=flat-square&logo=wireshark&logoColor=white)
 ![Scapy](https://img.shields.io/badge/Scapy-005571?style=flat-square)
-![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white)
-![Logstash](https://img.shields.io/badge/Logstash-005571?style=flat-square&logo=logstash&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596be?style=flat-square)
+![Nmap](https://img.shields.io/badge/Nmap-4d4d4d?style=flat-square)
 ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-4d4d4d?style=flat-square)
 
-**Platforms**
+**Cloud & Platforms**
+![AWS](https://img.shields.io/badge/AWS-232f3e?style=flat-square&logo=amazonaws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-fcc624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-f05032?style=flat-square&logo=git&logoColor=white)
 
@@ -45,15 +47,33 @@ I'm a Computer Science student at UC Davis focused on cybersecurity, threat dete
 
 ## 🔐 Featured Projects
 
-### [Wireshark Network Traffic Analysis](https://github.com/vchoudhary480/Wireshark-Network-Analysis)
-Analyzed Telnet packet captures to demonstrate how insecure protocols leak credentials and session data. Built a Python + Scapy tool that scans any `.pcap` file and automatically flags plaintext credentials, unencrypted protocols, and DNS leaks.
+### [🔒 SIEM Home Lab — Attack Detection & Analysis](https://github.com/vchoudhary480/siem-home-lab)
 
-- Reconstructs Telnet keystrokes and extracts FTP credentials from raw packets
-- Logs unencrypted HTTP requests, enumerates DNS queries, detects insecure ports
-- Recovered a full cleartext login session — username, password, and command history
-- **Stack:** Python, Scapy, Wireshark
+Built a fully isolated VirtualBox lab simulating real-world cyberattacks against an intentionally vulnerable Metasploitable 3 target, with Splunk Enterprise ingesting logs via rsyslog over UDP. Ran three attack scenarios end-to-end and verified that every attack was detected and logged.
 
-> 📂 More projects in network analysis, cloud security, and threat detection on my **[portfolio](https://vchoudhary480.github.io/vishwa-portfolio/)**.
+Conducted network reconnaissance using Nmap and discovered 9 exposed services including FTP, SSH, HTTP, and MySQL. Executed an SSH brute force attack with Hydra that generated 1,961 security events at over 200 events per minute, all captured in Splunk. Exploited the ProFTPD 1.3.5 mod_copy vulnerability via Metasploit to obtain a reverse shell with full remote code execution, with the entire attack chain visualized in a Splunk dashboard. Achieved a 100% detection rate across all 3 simulated attack scenarios with zero missed events.
+
+**Stack:** Splunk Enterprise, Kali Linux, Metasploitable 3, Metasploit, Nmap, Hydra, VirtualBox, rsyslog
+
+---
+
+### [🦈 Wireshark Network Traffic Analysis](https://github.com/vchoudhary480/Wireshark-Network-Analysis)
+
+Analyzed real network traffic to expose how insecure protocols silently leak credentials and session data. Captured and dissected Telnet sessions to reconstruct full keystroke-by-keystroke command history, then captured live traffic from a home network and found that DNS queries expose every visited domain to anyone on the same Wi-Fi — even when HTTPS protects the actual page content.
+
+Built a Python + Scapy automation tool that accepts any `.pcap` file and flags plaintext credentials, insecure protocols, DNS leaks, and insecure ports, with every finding mapped to a MITRE ATT&CK technique ID. Recovered a complete cleartext login session including username, password, and post-auth command history from a single packet capture. Compiled a professional findings report documenting severity ratings, protocol behavior, and recommended mitigations relevant to SOC and threat hunting workflows.
+
+**Stack:** Python, Scapy, Wireshark
+
+---
+
+### [☁️ AWS Cloud Security Hardening](https://github.com/vchoudhary480/aws-security-hardening)
+
+Hardened a live AWS account against common cloud misconfigurations and built a suite of Python (Boto3) audit scripts to detect them automatically. Configured IAM with user/group separation, root account lockdown, and MFA enforcement across all privileged accounts. Secured S3 with AES-256 encryption, bucket versioning, and account-level public access blocking, and enabled multi-region CloudTrail logging with AWS Config for continuous compliance monitoring.
+
+Developed 4 audit scripts covering IAM, S3, and security groups across all enabled AWS regions, producing machine-readable JSON reports suitable for SIEM ingestion or CI/CD pipeline gates. Mapped every check to a CIS AWS Foundations Benchmark v1.4 control. Validated detection accuracy by deliberately introducing misconfigurations — including edge cases like large CIDR blocks and wildcard S3 policies hidden behind condition blocks — and confirmed 100% detection with zero false positives across 3 simulated attack scenarios.
+
+**Stack:** Python, Boto3, AWS (IAM, S3, CloudTrail, AWS Config, Security Groups)
 
 ---
 
@@ -64,13 +84,14 @@ Analyzed Telnet packet captures to demonstrate how insecure protocols leak crede
 - CompTIA Network+ (N10-009)
 
 **Completed**
-- [Foundations of Cybersecurity — Google](https://www.coursera.org/account/accomplishments/verify/VIKEFQZHJFZU) *(Coursera)*
-- [Play It Safe: Manage Security Risks — Google](https://www.coursera.org/account/accomplishments/verify/1C1RC8INT7QT) *(Coursera)*
+- [Foundations of Cybersecurity — Google](https://www.coursera.org/learn/foundations-of-cybersecurity) *(Coursera)*
+- [Play It Safe: Manage Security Risks — Google](https://www.coursera.org/learn/manage-security-risks) *(Coursera)*
+- AIG Shields Up: Cybersecurity Job Simulation
 
 ---
 
 ## 📫 How to Reach Me
 
-- 📧 **[Email](mailto:choudharyvishwaprakash480@gmail.com)**
-- 💼 **LinkedIn:** [vishwa-prakash-choudhary](https://www.linkedin.com/in/vishwa-prakash-choudhary-541036291/)
-- 🌐 **Portfolio:** [vchoudhary480.github.io/vishwa-portfolio](https://vchoudhary480.github.io/vishwa-portfolio/)
+- 🔵 [Email](mailto:choudharyvishwaprakash480@gmail.com)
+- 💼 LinkedIn: [vishwa-prakash-choudhary](https://www.linkedin.com/in/vishwa-prakash-choudhary-541036291/)
+- 🌐 Portfolio: [vchoudhary480.github.io/vishwa-portfolio](https://vchoudhary480.github.io/vishwa-portfolio)
