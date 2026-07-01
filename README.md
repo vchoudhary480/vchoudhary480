@@ -24,17 +24,17 @@ I'm a Computer Science student at UC Davis focused on cybersecurity, threat dete
 
 ## 🛠️ Tech & Tools
 
-**Languages & Scripting**
-Python · Bash · SQL (basics)
+**Languages & Scripting:**
+Python, Bash, SQL (basics)
 
-**Security & Networking**
-Wireshark · Scapy · Splunk · Metasploit · Nmap · Kali Linux · TCP/IP
+**Security & Networking:**
+Wireshark, Splunk, Metasploit, Nmap
 
-**Cloud & Platforms**
-AWS (IAM, S3, CloudTrail, GuardDuty) · Linux · VirtualBox / VMware
+**Cloud & Platforms:**
+AWS (IAM, S3, CloudTrail, GuardDuty), Linux (Kali, Ubuntu), VirtualBox / VMware
 
-**Concepts**
-Log Analysis · Incident Response · MITRE ATT&CK · NIST Frameworks · Cryptography Fundamentals
+**Concepts:**
+Log Analysis, Incident Response, MITRE ATT&CK, NIST Frameworks, Cryptography Fundamentals, TCP/IP & Networking
 
 ---
 
