@@ -14,10 +14,10 @@ Outside work, I develop projects in AWS security auditing, Python automation, ne
 
 ## Enterprise Experience
 
-<table width="100%">
+<table>
   <tr>
-    <td><strong>Engineering Support Specialist</strong><br>Sunnyvale, CA</td>
-    <td align="right"><strong>Nokia</strong><br>June 2026 to Present</td>
+    <td width="10000" valign="top"><strong>Engineering Support Specialist</strong><br><br>June 2026 to Present</td>
+    <td width="10000" align="right" valign="top"><strong>Nokia</strong><br><br>Sunnyvale, CA</td>
   </tr>
 </table>
 
