@@ -1,89 +1,75 @@
-# Hi 👋, I'm Vishwa Prakash Choudhary
+# Vishwa Prakash Choudhary
 
-**Computer Science @ UC Davis** · **IT intern @ Nokia** . Aspiring **SOC Analyst** · Cybersecurity concentration
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Developer working at a computer" width="200" align="right" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-2563eb?style=flat-square)](https://vchoudhary480.github.io/vishwa-portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishwa-prakash-choudhary-541036291/)
----
+**Engineering Support Specialist at Nokia | UC Davis Computer Science Graduate**
 
-## 📌 About Me
+I support enterprise infrastructure and build practical security tools. My work spans access management, VMware permissions, network configuration, endpoint deployment, and Linux workstation setup.
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" align="right"/>
+Outside work, I develop projects in AWS security auditing, Python automation, network traffic analysis, and attack detection. I'm pursuing early-career opportunities in **Security Engineering, Cloud Security, IAM, and Infrastructure Security**.
 
-I'm a Computer Science student at UC Davis focused on cybersecurity, threat detection, network traffic analysis, and security architecture. I'm currently pursuing **CompTIA Security+**, and building hands-on projects that show I can actually do the work, not just talk about it.
+[Portfolio](https://vchoudhary480.github.io/vishwa-portfolio/) · [LinkedIn](https://www.linkedin.com/in/vishwa-prakash-choudhary-541036291/) · [Email](mailto:choudharyvishwaprakash480@gmail.com)
 
-- 🎯 Targeting entry-level **SOC Analyst** and security engineering roles
-- 🔍 Currently focused on threat detection, SIEM tooling, and vulnerability assessment
-- 🛠️ Building practical projects in network analysis and cloud security
-- 📜 Studying for **CompTIA Security+ (SY0-701)**
-- 🎓 Graduating **August 2026**
+<br clear="right" />
 
-<br clear="right"/>
+## Enterprise Experience
 
----
+**Engineering Support Specialist, Nokia**  
+Sunnyvale, CA | June 2026 to Present
 
-## 🛠️ Tech & Tools
+- Manage role-based access across **50+ VMware virtual machines**, including onboarding and offboarding permissions.
+- Configure network switches alongside network engineers and troubleshoot connectivity issues.
+- Deployed **100+ corporate laptops** using standardized system images.
+- Configured **20+ Linux workstations** using existing setup scripts and installed Wazuh agents for centralized monitoring.
 
-**Languages & Scripting:**
-Python, Bash, SQL (basics)
+## Selected Projects
 
-**Security & Networking:**
-Wireshark, Splunk, Metasploit, Nmap
+### [AWS Security Misconfiguration Scanner](https://github.com/vchoudhary480/AWS-Security-Misconfiguration-Scanner)
 
-**Cloud & Platforms:**
-AWS (IAM, S3, CloudTrail, GuardDuty), Linux (Kali, Ubuntu), VirtualBox / VMware
+Python tooling that audits IAM, S3, and EC2 security groups for common security misconfigurations.
 
-**Concepts:**
-Log Analysis, Incident Response, MITRE ATT&CK, NIST Frameworks, Cryptography Fundamentals, TCP/IP & Networking
+- Built three Boto3 audit modules and an orchestrator that produces JSON reports with severity ratings.
+- Scans enabled AWS regions for internet-exposed SSH, RDP, and database ports; checks IAM credentials and S3 access configurations.
+- Includes **18 automated tests**, with Moto-based AWS mocks, and a GitHub Actions workflow for linting, syntax checks, and testing.
 
----
+**Tools:** Python, Boto3, AWS IAM, S3, EC2, pytest, Moto, GitHub Actions
 
-## 🔐 Featured Projects
+### [Wireshark Network Traffic Analysis](https://github.com/vchoudhary480/Wireshark-Network-Analysis)
 
-### [🔒 SIEM Home Lab — Attack Detection & Analysis](https://github.com/vchoudhary480/siem-home-lab)
+Packet analysis and Python tooling to investigate plaintext credentials and insecure network protocols.
 
-Built a fully isolated VirtualBox lab simulating real-world cyberattacks against an intentionally vulnerable Metasploitable 3 target, with Splunk Enterprise ingesting logs via rsyslog over UDP. Ran three attack scenarios end-to-end and verified that every attack was detected and logged.
+- Recovered Telnet credentials and **seven lines of user input**, including login details and commands, from a public sample capture.
+- Built Python checks for FTP credentials, DNS queries, and insecure ports.
+- Documented findings and **six recommended security fixes**. Distinguished domain lookup visibility from page content and complete browsing history.
 
-Conducted network reconnaissance using Nmap and discovered 9 exposed services including FTP, SSH, HTTP, and MySQL. Executed an SSH brute force attack with Hydra that generated 1,961 security events at over 200 events per minute, all captured in Splunk. Exploited the ProFTPD 1.3.5 mod_copy vulnerability via Metasploit to obtain a reverse shell with full remote code execution, with the entire attack chain visualized in a Splunk dashboard. Achieved a 100% detection rate across all 3 simulated attack scenarios with zero missed events.
+**Tools:** Python, Scapy, Wireshark, TCP/IP, DNS, FTP
 
-**Stack:** Splunk Enterprise, Kali Linux, Metasploitable 3, Metasploit, Nmap, Hydra, VirtualBox, rsyslog
+### [SIEM Home Lab: Attack Detection & Analysis](https://github.com/vchoudhary480/siem-home-lab)
 
----
+A controlled lab for simulating attacks, investigating logs, and documenting remediation.
 
-### [🦈 Wireshark Network Traffic Analysis](https://github.com/vchoudhary480/Wireshark-Network-Analysis)
+- Analyzed **1,961 security events** in Splunk and identified evidence of all three simulated attack scenarios.
+- Enumerated **nine exposed services** with Nmap and validated a remote code execution vulnerability using Metasploit.
+- Investigated SSH brute-force attempts and documented security findings and recommended fixes.
 
-Analyzed real network traffic to expose how insecure protocols silently leak credentials and session data. Captured and dissected Telnet sessions to reconstruct full keystroke-by-keystroke command history, then captured live traffic from a home network and found that DNS queries expose every visited domain to anyone on the same Wi-Fi, even when HTTPS protects the actual page content.
+**Tools:** Splunk, Linux, Nmap, Metasploit, Hydra, VirtualBox, rsyslog
 
-Built a Python + Scapy automation tool that accepts any `.pcap` file and flags plaintext credentials, insecure protocols, DNS leaks, and insecure ports, with every finding mapped to a MITRE ATT&CK technique ID. Recovered a complete cleartext login session including username, password, and post-auth command history from a single packet capture. Compiled a professional findings report documenting severity ratings, protocol behavior, and recommended mitigations relevant to SOC and threat hunting workflows.
+## Technical Skills
 
-**Stack:** Python, Scapy, Wireshark
+| Area | Practical experience |
+| --- | --- |
+| Cloud & Identity | AWS IAM, S3, EC2, RBAC, MFA, Microsoft 365 access management |
+| Infrastructure & Networking | Linux, Windows, VMware vSphere permissions, switch configuration, DNS, TCP/IP |
+| Security Tools | Wazuh agent deployment, Splunk, Wireshark, Nmap, Metasploit |
+| Programming & Tooling | Python, Boto3, Scapy, Git, GitHub Actions, Bash setup script execution |
 
----
+## Education & Professional Development
 
-### [☁️ AWS Cloud Security Hardening](https://github.com/vchoudhary480/aws-security-hardening)
+**University of California, Davis**  
+Bachelor of Science in Computer Science | Graduated August 2026
 
-Hardened a live AWS account against common cloud misconfigurations and built a suite of Python (Boto3) audit scripts to detect them automatically. Configured IAM with user/group separation, root account lockdown, and MFA enforcement across all privileged accounts. Secured S3 with AES-256 encryption, bucket versioning, and account-level public access blocking, and enabled multi-region CloudTrail logging with AWS Config for continuous compliance monitoring.
+**Certification in progress:** CompTIA Security+ (SY0-701), preparing for exam.
 
-Developed 4 audit scripts covering IAM, S3, and security groups across all enabled AWS regions, producing machine-readable JSON reports suitable for SIEM ingestion or CI/CD pipeline gates. Mapped every check to a CIS AWS Foundations Benchmark v1.4 control. Validated detection accuracy by deliberately introducing misconfigurations, including edge cases like large CIDR blocks and wildcard S3 policies hidden behind condition blocks and confirmed 100% detection with zero false positives across 3 simulated attack scenarios.
+**Completed courses:** Google Foundations of Cybersecurity; Google Play It Safe: Manage Security Risks.
 
-**Stack:** Python, Boto3, AWS (IAM, S3, CloudTrail, AWS Config, Security Groups)
-
----
-
-## 📜 Certifications
-
-**In Progress**
-- CompTIA Security+ (SY0-701)
-
-**Completed**
-- [Foundations of Cybersecurity — Google](https://www.coursera.org/learn/foundations-of-cybersecurity) *(Coursera)*
-- [Play It Safe: Manage Security Risks — Google](https://www.coursera.org/learn/manage-security-risks) *(Coursera)*
-- AIG Shields Up: Cybersecurity Job Simulation
-
----
-
-## 📫 How to Reach Me
-
-- 💼 LinkedIn: [vishwa-prakash-choudhary](https://www.linkedin.com/in/vishwa-prakash-choudhary-541036291/)
-- 🌐 Portfolio: [vchoudhary480.github.io/vishwa-portfolio](https://vchoudhary480.github.io/vishwa-portfolio)
-- 🔵 Email: choudharyvishwaprakash480@gmail.com
+**Completed simulation:** AIG Shields Up: Cybersecurity Job Simulation.
