@@ -14,12 +14,10 @@ Outside work, I develop projects in AWS security auditing, Python automation, ne
 
 ## Enterprise Experience
 
-<table>
-  <tr>
-    <td width="10000" valign="top"><strong>Engineering Support Specialist</strong><br><br>June 2026 to Present</td>
-    <td width="10000" align="right" valign="top"><strong>Nokia</strong><br><br>Sunnyvale, CA</td>
-  </tr>
-</table>
+### Engineering Support Specialist
+
+**Nokia** · Sunnyvale, CA  
+June 2026 to Present
 
 - Manage role-based access across **50+ VMware virtual machines**, including onboarding and offboarding permissions.
 - Configure network switches alongside network engineers and troubleshoot connectivity issues.
